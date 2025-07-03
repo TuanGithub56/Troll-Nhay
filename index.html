@@ -1,45 +1,15 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Link Tiktok</title>
-  <style>
-    body {
-      margin: 0;
-      background: black;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    .message {
-      position: absolute;
-      top: 10%;
-      width: 100%;
-      font-size: 2em;
-      animation: fadeIn 2s ease-out;
-      z-index: 2;
-    }
-    iframe {
-      width: 100vw;
-      height: 100vh;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 1;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
-</head>
-<body>
-  <div class="message">
-    M đã bị lừa rồi 🤣
-  </div>
-  <iframe src="https://www.youtube.com/embed/SXHMnicI6Pg?autoplay=1&mute=1&controls=1" 
-          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-  </iframe>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Đang mở video...</title>
+    <meta http-equiv="refresh" content="0; url=https://youtube.com/shorts/SXHMnicI6Pg?si=85wvkG04Vn8ZE0jT">
+    <script>
+      // Trường hợp meta refresh bị chặn, dùng JS fallback
+      window.location.href = "https://youtube.com/shorts/SXHMnicI6Pg?si=85wvkG04Vn8ZE0jT";
+    </script>
+  </head>
+  <body>
+    <p>Nếu không được chuyển hướng, bấm <a href="https://youtube.com/shorts/SXHMnicI6Pg?si=85wvkG04Vn8ZE0jT">vào đây</a>.</p>
+  </body>
 </html>
